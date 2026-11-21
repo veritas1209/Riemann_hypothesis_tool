@@ -2,6 +2,16 @@
 
 Ubuntu에서 한 명령으로 실행 환경을 준비하고, Alpöge의 RH / Dirichlet GRH Lean 프로젝트를 빌드한 뒤 최종 정리의 공리를 검사합니다. 원본 코드를 내려받아 해시를 확인하고, 프로젝트가 지정한 Lean과 Mathlib 버전을 사용합니다.
 
+## 우리의 검증 결과
+
+**2026년 11월 21일 TRX50에서 원본 175,187개 모듈 전체 빌드와 최종 정리 5개의 공리 검사를 재현했습니다.** 다섯 정리 모두 `propext`, `Classical.choice`, `Quot.sound`만 사용했고, 완료 시각은 18:25:47 KST입니다.
+
+- [검증 결과 보고서](docs/verification-result-2026-11-21.md): 대상 정리, 실행 조건, 결과의 의미와 확인 범위
+- [공리 검사 원문](data/verification-2026-11-21/axiom-audit.log) · [최종 빌드 로그 끝부분](data/verification-2026-11-21/final-main-build.tail.log) · [완료 이벤트](data/verification-2026-11-21/build-events.jsonl)
+- [구조화된 결과](data/resource-completion.json) · [실측 자원 사용량](docs/resources.md)
+
+이는 기존 원격 실행기로 수행한 재현 기록입니다. 새 `verify.sh`의 설치부터 전체 검증까지 완주한 기록, 독립 커널 재검증, 형식 명제의 의미 일치 검사와는 구분합니다.
+
 ## 시작하기
 
 저장소를 복제한 뒤 **Ubuntu 터미널**에서 실행합니다.

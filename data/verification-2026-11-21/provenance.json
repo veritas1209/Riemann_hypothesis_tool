@@ -1,0 +1,39 @@
+{
+  "collected_at": "2026-11-21T18:42:28.203327+09:00",
+  "run_completed_at": "2026-11-21T18:25:47+09:00",
+  "run_origin": "Existing TRX50 remote-verify.py run, not a complete end-to-end run of the newly published verify.sh wrapper",
+  "source_archive_sha256": "9631b4f020199e580ba86178cb56c6e9b09f690c2369a80dc4334aa93f49c7fc",
+  "legacy_runner_sha256": "c0d751237a4f864f82416e4631cad3f7a1c40d427d23306b06c740fb2303798f",
+  "input_fingerprint": "d32b4acc8e419aa0ced294a755f9d97e3a269760bad43658984a3fdc09b41979",
+  "module_order_sha256": "eea9845ca70e645cda6bc5490529eeb24ebfe925134047bf8714abe363621a71",
+  "logs": {
+    "final-main-build.tail.log": {
+      "sha256": "5f3688045cbbfd5b2023dc622d2ba2f4f63e050e4499fa3a615b39ae92987ad9",
+      "bytes": 8125,
+      "origin_name": "final_main_build-1795253098543243413.log",
+      "origin_bytes": 168587816,
+      "origin_sha256": "dfff11cf01c95344c54f679b0538c76f406f6501163c4daaadc83c081e9cecb1",
+      "excerpt": true,
+      "byte_offset": 168579691
+    },
+    "axiom-audit.log": {
+      "sha256": "2c7b168860c39a4b4afd417a327bbbd8a2a0615372655c5d4bd329fb06e7f3d5",
+      "bytes": 435,
+      "origin_name": "axiom_audit-1795253124548740298.log",
+      "origin_bytes": 435,
+      "origin_sha256": "2c7b168860c39a4b4afd417a327bbbd8a2a0615372655c5d4bd329fb06e7f3d5",
+      "excerpt": false,
+      "byte_offset": 0
+    }
+  },
+  "build_events": {
+    "file": "build-events.jsonl",
+    "source": "Existing runner events.jsonl",
+    "records": 185,
+    "completed_batches": 91,
+    "completed_modules": 175187,
+    "extraction": "All batch_committed, command_finished and run_finished events; selected time/result/count fields only. Command arguments, setup-cleanup events and resource samples are omitted. This is a projection, not the full original event stream."
+  },
+  "scope": "Compilation and five endpoint axiom checks only. No independent kernel replay or challenge comparison was performed by this run.",
+  "checksum_note": "SHA256SUMS covers the published evidence files in this directory. It checks file integrity, not mathematical correctness. Log origin_sha256 values refer to the whole original log, including bytes omitted from a tail excerpt."
+}
