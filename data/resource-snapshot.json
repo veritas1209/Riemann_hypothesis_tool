@@ -1,0 +1,59 @@
+{
+  "record_type": "in_progress_measurement",
+  "observed_at": "2026-11-21T13:29:37.884710+09:00",
+  "hardware": {
+    "cpu": "AMD Ryzen Threadripper PRO 9955WX",
+    "physical_cores": 16,
+    "logical_cpus": 32,
+    "memory_total_bytes": 269558800384,
+    "os": "Ubuntu 24.04.3 LTS"
+  },
+  "configuration": {
+    "lean": "v4.33.1",
+    "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "source_archive_sha256": "9631b4f020199e580ba86178cb56c6e9b09f690c2369a80dc4334aa93f49c7fc",
+    "threads": 32,
+    "batch_size": 2048,
+    "memory_high_bytes": 214748364800,
+    "memory_max_bytes": 236223201280,
+    "memory_swap_max_bytes": 4294967296,
+    "scope_started_at": "2026-11-21T04:42:22+09:00"
+  },
+  "progress": {
+    "completed_modules": 120072,
+    "total_modules": 175187,
+    "current_batch_start": 120072,
+    "current_batch_end": 122120,
+    "full_build_completed": false,
+    "final_axiom_audit_completed": false
+  },
+  "memory": {
+    "scope_current_bytes": 99087257600,
+    "scope_peak_since_scope_start_bytes": 112371408896,
+    "scope_anonymous_bytes": 12557643776,
+    "scope_file_cache_bytes": 75807653888,
+    "scope_swap_bytes": 0,
+    "system_available_bytes": 232178421760,
+    "events": {"high": 0, "max": 0, "oom": 0, "oom_kill": 0},
+    "note": "Cgroup current and peak include charged file cache and kernel memory. Peak is through this observation, not the final run peak. Summed process RSS is not used."
+  },
+  "disk": {
+    "measurement": "du -s -B1, allocated filesystem bytes, sequential reads during the run",
+    "project_source_bytes": 1441148928,
+    "project_build_bytes": 74540662784,
+    "project_packages_bytes": 8052576256,
+    "verification_state_and_logs_bytes": 641835008,
+    "transfer_directory_bytes": 510631936,
+    "sum_of_listed_directories_bytes": 85186854912,
+    "note": "Not an atomic snapshot or final size. Excludes Lean toolchains and paths not listed here. Source apparent byte size differs from allocated size."
+  },
+  "earlier_throughput_sample": {
+    "observed_at": "2026-11-21T13:11:52.424028+09:00",
+    "cpu_sample_seconds": 10,
+    "logical_cpu_equivalents": 31.66,
+    "modules_per_hour_last_10_completed_batches": 13813
+  },
+  "final_wall_seconds": null,
+  "final_peak_memory_bytes": null,
+  "final_disk_bytes": null
+}

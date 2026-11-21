@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+*.pyc
+upstream/
+.lake/
+.verification-run/
+.replay/
