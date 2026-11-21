@@ -1,0 +1,34 @@
+{
+  "status": "completed",
+  "pid": 3568465,
+  "started_at": "2026-11-21T09:59:45.981047+00:00",
+  "scope": "Five headline theorems and their transitive dependencies, read directly from our compiled .olean files",
+  "independent_kernel_recheck_passed": true,
+  "threads": 32,
+  "command": [
+    "/data/lean-projects/remark-independent-kernel-20261121/con-leche/.lake/build/bin/con-leche",
+    "--verified",
+    "--jobs=32",
+    "--progress=10s",
+    "--olean",
+    "--search-path=/data/lean-projects/remark/.lake/packages/Cli/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/batteries/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/Qq/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/aesop/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/proofwidgets/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/importGraph/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/plausible/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/mathlib/.lake/build/lib/lean:/data/lean-projects/remark/.lake/build/lib/lean:/home/user/.elan/toolchains/leanprover--lean4---v4.33.1/lib/lean:/home/user/.elan/toolchains/leanprover--lean4---v4.33.1/lib/lean",
+    "--constant=riemannHypothesis",
+    "--constant=riemannZeta_eq_zero_re",
+    "--constant=LFunction_ne_zero_of_half_lt_re",
+    "--constant=LFunction_eq_zero_re",
+    "--constant=LFunction_eq_zero_re_of_isPrimitive",
+    "Main"
+  ],
+  "cwd": "/data/lean-projects/remark",
+  "main_olean_sha256": "9146dfb4148e24d2252e04c50742f3e49dd126dfcc5006d10bf5f873ddf796ad",
+  "checker_binary_sha256": "588c0b86a3cb5e9fbee489ec1d609435599d82b155df1bb4f5e6886d43e3a12e",
+  "updated_at": "2026-11-21T10:08:26.474047+00:00",
+  "elapsed_seconds": 520.058,
+  "system_memory": {
+    "MemTotal": 269558800384,
+    "MemAvailable": 208266117120
+  },
+  "exit_code": 0,
+  "accepted_declarations": 1468414,
+  "completed_at": "2026-11-21T10:08:26.474032+00:00"
+}

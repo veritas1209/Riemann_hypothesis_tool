@@ -1,0 +1,23 @@
+	Command being timed: "/data/lean-projects/remark-independent-kernel-20261121/con-leche/.lake/build/bin/con-leche --verified --jobs=32 --progress=10s --olean --search-path=/data/lean-projects/remark/.lake/packages/Cli/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/batteries/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/Qq/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/aesop/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/proofwidgets/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/importGraph/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/plausible/.lake/build/lib/lean:/data/lean-projects/remark/.lake/packages/mathlib/.lake/build/lib/lean:/data/lean-projects/remark/.lake/build/lib/lean:/home/user/.elan/toolchains/leanprover--lean4---v4.33.1/lib/lean:/home/user/.elan/toolchains/leanprover--lean4---v4.33.1/lib/lean --constant=riemannHypothesis --constant=riemannZeta_eq_zero_re --constant=LFunction_ne_zero_of_half_lt_re --constant=LFunction_eq_zero_re --constant=LFunction_eq_zero_re_of_isPrimitive Main"
+	User time (seconds): 14385.14
+	System time (seconds): 261.51
+	Percent of CPU this job got: 2825%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:38.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 29213132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 23705452
+	Voluntary context switches: 119714
+	Involuntary context switches: 481857
+	Swaps: 0
+	File system inputs: 23507096
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

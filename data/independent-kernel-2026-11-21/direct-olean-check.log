@@ -1,0 +1,62 @@
+con-leche: reading Main
+con-leche: read: tracing the import closure t=0.0s RSS=0.01G
+con-leche: read: loading 186200 modules t=1.5s RSS=0.11G
+con-leche: read: loaded 42505 modules (22%), 1432623 constants t=10.0s RSS=9.62G
+con-leche: read: loaded 113929 modules (61%), 2136287 constants t=20.0s RSS=16.54G
+con-leche: read: loaded 172186 modules (92%), 2606651 constants t=30.0s RSS=22.65G
+con-leche: read: merging the constants of 186200 modules t=40.9s RSS=23.66G
+con-leche: read: checking the blocks of 2701132 constants t=42.6s RSS=23.77G
+con-leche: read: emitting records from 5 constants t=43.2s RSS=23.81G
+con-leche: parse done: 1468414 fold records — the file's 1468414, 0 built-in prelude records synthesised t=65.9s (parse 65.9s)
+con-leche: checking: 1468414 declarations on 32 workers t=75.7s
+con-leche: check 135561 (9%) t=85.7s busy=31/32
+con-leche: check 196954 (13%) t=95.7s busy=31/32
+con-leche: check 249565 (16%) t=105.7s busy=31/32
+con-leche: check 280805 (19%) t=115.7s busy=31/32, oldest theorem Formalism.IrreducibleCountingLemmas.GaloisIrreducibility.PrimeCountingLemmas.factorial_ladder_one_forty_one._proof_1_1 (#226690) 14.343s
+con-leche: check 311727 (21%) t=125.7s busy=31/32
+con-leche: check 340692 (23%) t=135.7s busy=31/32
+con-leche: check 374261 (25%) t=145.7s busy=31/32
+con-leche: check 405994 (27%) t=155.7s busy=31/32
+con-leche: check 449467 (30%) t=165.7s busy=31/32
+con-leche: check 473842 (32%) t=175.7s busy=31/32
+con-leche: check 488534 (33%) t=185.7s busy=31/32
+con-leche: check 512041 (34%) t=195.7s busy=31/32
+con-leche: check 534581 (36%) t=205.7s busy=31/32
+con-leche: check 565081 (38%) t=215.7s busy=31/32
+con-leche: check 597983 (40%) t=225.7s busy=31/32
+con-leche: check 617608 (42%) t=235.7s busy=31/32, oldest theorem PI.PC.loop_run._proof_1_1 (#571290) 17.970s
+con-leche: check 637168 (43%) t=245.7s busy=31/32, oldest theorem PI.PC.loop_run._proof_1_1 (#571290) 27.970s
+con-leche: check 671553 (45%) t=255.7s busy=31/32, oldest theorem PI.PC.loop_run._proof_1_1 (#571290) 37.971s
+con-leche: check 714755 (48%) t=265.7s busy=31/32
+con-leche: check 757394 (51%) t=275.7s busy=31/32
+con-leche: check 784000 (53%) t=285.7s busy=31/32
+con-leche: check 806319 (54%) t=295.7s busy=31/32
+con-leche: check 829684 (56%) t=305.7s busy=31/32
+con-leche: check 849068 (57%) t=315.7s busy=31/32, oldest theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554) 10.356s
+con-leche: check 865933 (58%) t=325.7s busy=31/32, oldest theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554) 20.356s
+con-leche: check 887560 (60%) t=335.7s busy=31/32
+con-leche: check 920127 (62%) t=345.7s busy=31/32
+con-leche: check 959844 (65%) t=355.7s busy=31/32
+con-leche: check 999907 (68%) t=365.7s busy=31/32
+con-leche: check 1038202 (70%) t=375.7s busy=31/32
+con-leche: check 1070125 (72%) t=385.7s busy=31/32
+con-leche: check 1106335 (75%) t=395.7s busy=31/32
+con-leche: check 1133131 (77%) t=405.7s busy=31/32
+con-leche: check 1170074 (79%) t=415.7s busy=31/32
+con-leche: check 1207011 (82%) t=425.7s busy=31/32
+con-leche: check 1221039 (83%) t=435.7s busy=31/32
+con-leche: check 1234019 (84%) t=445.7s busy=31/32, oldest theorem GlobalTheory.Poinc.TestAtPt.exists_uTest_isBC (#1209894) 17.273s
+con-leche: check 1268821 (86%) t=455.7s busy=31/32
+con-leche: check 1302975 (88%) t=465.7s busy=31/32
+con-leche: check 1336374 (91%) t=475.7s busy=31/32
+con-leche: check 1369383 (93%) t=485.7s busy=31/32
+con-leche: check 1413084 (96%) t=495.7s busy=31/32
+con-leche: check 1436484 (97%) t=505.7s busy=31/32
+con-leche: check 1464361 (99%) t=515.7s busy=31/32
+con-leche: check done: 1468414 declarations t=518.1s (check 452.2s)
+con-leche: done: parse 65.9s, check 452.2s, 32 workers t=518.1s
+con-leche: stats: phases: parse 65.9s (index 8.3s), check 452.2s
+con-leche: stats: check pool: 442.423s wall, 32 workers, 1468414 records, busy 14134.101s (99.8%); tail 0.516s after the last start, 32 busy then, 1.896s worker-time in it (11.4%)
+con-leche: stats: slowest checks: 39.274s theorem PI.PC.loop_run._proof_1_1 (#571290); 23.381s theorem Formalism.IrreducibleCountingLemmas.GaloisIrreducibility.PrimeCountingLemmas.factorial_ladder_one_forty_one._proof_1_1 (#226690); 21.934s theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554); 20.224s theorem GlobalTheory.Poinc.TestAtPt.exists_uTest_isBC (#1209894); 19.337s theorem GlobalTheory.HeightCounting.SideCopy.sigSpan_copy (#829660)
+con-leche: stats: peak RSS 27.85 GiB
+con-leche: accepted 1468414 declarations (--verified)
