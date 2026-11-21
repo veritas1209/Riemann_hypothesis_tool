@@ -1,0 +1,145 @@
+{
+  "record_type": "completed_run_measurement",
+  "observed_at": "2026-11-21T18:31:19.765992+09:00",
+  "run_origin": "Existing TRX50 remote-verify.py run, not a complete end-to-end run of the newly published verify.sh wrapper",
+  "hardware": {
+    "cpu": "AMD Ryzen Threadripper PRO 9955WX",
+    "physical_cores": 16,
+    "logical_cpus": 32,
+    "memory_total_bytes": 269558800384,
+    "os": "Ubuntu 24.04.3 LTS"
+  },
+  "configuration": {
+    "lean": "v4.33.1",
+    "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "source_archive_sha256": "9631b4f020199e580ba86178cb56c6e9b09f690c2369a80dc4334aa93f49c7fc",
+    "threads": 32,
+    "batch_size": 2048,
+    "memory_high_bytes": 214748364800,
+    "memory_max_bytes": 236223201280,
+    "memory_swap_max_bytes": 4294967296,
+    "scope_started_at": "2026-11-21T04:42:22+09:00"
+  },
+  "provenance": {
+    "legacy_runner_sha256": "c0d751237a4f864f82416e4631cad3f7a1c40d427d23306b06c740fb2303798f",
+    "source_archive_sha256": "9631b4f020199e580ba86178cb56c6e9b09f690c2369a80dc4334aa93f49c7fc",
+    "source_inventory_sha256": "d35a64b1fe17ee9a64f18eafe23a4e4953cae671c75e9b75b519aae865989dc5",
+    "input_fingerprint": "d32b4acc8e419aa0ced294a755f9d97e3a269760bad43658984a3fdc09b41979",
+    "module_order_sha256": "eea9845ca70e645cda6bc5490529eeb24ebfe925134047bf8714abe363621a71"
+  },
+  "progress": {
+    "completed_modules": 175187,
+    "total_modules": 175187,
+    "full_build_completed": true,
+    "final_axiom_audit_completed": true,
+    "semantic_review_performed": false,
+    "independent_kernel_recheck_performed": false
+  },
+  "completed_at": "2026-11-21T18:25:47+09:00",
+  "axiom_audit": {
+    "passed": true,
+    "endpoints": {
+      "riemannHypothesis": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "riemannZeta_eq_zero_re": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "LFunction_ne_zero_of_half_lt_re": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "LFunction_eq_zero_re": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "LFunction_eq_zero_re_of_isPrimitive": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "unexpected_axioms": {}
+  },
+  "completion_scope": "Compilation and endpoint axiom audit only; no semantic review or independent kernel recheck",
+  "elapsed": {
+    "first_recorded_batch_command_at": "2026-11-21T04:17:44+09:00",
+    "first_recorded_batch_to_completion_seconds": 50883,
+    "last_session_started_at": "2026-11-21T04:42:22+09:00",
+    "last_32_thread_session_to_completion_seconds": 49405,
+    "final_main_build_seconds": 26.0,
+    "axiom_audit_seconds": 23.0,
+    "note": "Recorded elapsed wall time includes gaps/restarts. Initial installation and dependency-cache preparation are excluded; this is not a fresh-install benchmark."
+  },
+  "memory": {
+    "last_observed_scope_peak_at": "2026-11-21T18:16:01+09:00",
+    "last_observed_scope_peak_since_scope_start_bytes": 159224287232,
+    "final_peak_memory_bytes": null,
+    "note": "The last recorded cgroup peak includes file cache and kernel memory. It is a lower bound for the final peak, not a final measurement. The scope was inactive and MemoryPeak unavailable when completion was checked. Summed process RSS is not used."
+  },
+  "disk": {
+    "measurement": "du -s -B1 after completion, allocated filesystem bytes; paths sampled sequentially",
+    "project_source_bytes": 1441148928,
+    "project_build_bytes": 104888532992,
+    "project_packages_bytes": 8052576256,
+    "verification_state_and_logs_bytes": 2151727104,
+    "transfer_directory_bytes": 516280320,
+    "sum_of_listed_directories_bytes": 117050265600,
+    "note": "Excludes elan toolchains, external download caches and paths not listed. The separate new-wrapper smoke-test directory is not included."
+  },
+  "final_events": [
+    {
+      "time": "2026-11-21T09:10:39+00:00",
+      "event": "command_started",
+      "label": "batch-173320-175187"
+    },
+    {
+      "time": "2026-11-21T09:24:57+00:00",
+      "event": "command_finished",
+      "label": "batch-173320-175187",
+      "seconds": 857.7,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-11-21T09:24:58+00:00",
+      "event": "batch_committed",
+      "completed_modules": 175187
+    },
+    {
+      "time": "2026-11-21T09:24:58+00:00",
+      "event": "command_started",
+      "label": "final_main_build"
+    },
+    {
+      "time": "2026-11-21T09:25:24+00:00",
+      "event": "command_finished",
+      "label": "final_main_build",
+      "seconds": 26.0,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-11-21T09:25:24+00:00",
+      "event": "command_started",
+      "label": "axiom_audit"
+    },
+    {
+      "time": "2026-11-21T09:25:47+00:00",
+      "event": "command_finished",
+      "label": "axiom_audit",
+      "seconds": 23.0,
+      "exit_code": 0
+    },
+    {
+      "time": "2026-11-21T09:25:47+00:00",
+      "event": "run_finished",
+      "full_build_completed": true,
+      "axiom_audit_passed": true
+    }
+  ]
+}
